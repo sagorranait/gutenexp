@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 	const projectConfig = {
 		name: 			'gutenexp', 			// should be the text domain of the project (todo: spilt it)
 		srcDir: 		'./', 							// the source directory of the plugin
-		distDir: 		'../dist/gutenexp/', 	// where to save the built files
+		distDir: 		'../../dist/gutenexp/', 	// where to save the built files
 		ignoreLint:		true, 							// ignore the linting (coding standard checking) during 'build' task (true/ false)
 	}
 
